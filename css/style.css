@@ -18,7 +18,7 @@
 .product {
     display: inline-block;
     position: relative;
-    width: calc((100%/3) - 8px);
+    width: calc((100%/3) - 20px);
     margin: 0 4px;
     vertical-align: top;
 }
@@ -68,3 +68,10 @@
     margin-left: 5px;
 }
 
+.display {
+    display: none;
+}
+
+.product:hover .display {
+    display: inline-block;
+}
