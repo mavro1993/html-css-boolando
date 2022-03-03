@@ -68,10 +68,14 @@
     margin-left: 5px;
 }
 
-.display {
+.hide {
     display: none;
 }
 
-.product:hover .display {
-    display: inline-block;
+.product:hover .hide {
+    display: block;
+}
+
+.product:hover .show {
+    display: none;
 }
